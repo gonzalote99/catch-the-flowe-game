@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <title>catch the flower</title>
+</head>
+<body>
+  <header>
+  <nav>
+
+  <ul>
+  <li class="btn"><span>gon</span></li>
+  <li class="btn"><span>game</span></li>
+  </ul>
+  </nav>
+
+  </header>
+  <div id="game-start" onclick="game.start()" >start</div>
+  <canvas id="collectGame" width="1184" height="662" style="border:solid 1px black" tabindex="0"></canvas>
+  <div id="game-over" >time out<p><span onclick="game.restart()">restart</span></p></div>
+  <script src="script.js"></script>
+</body>
+</html>
